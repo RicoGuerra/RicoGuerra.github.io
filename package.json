@@ -1,0 +1,20 @@
+{
+  "name": "ricoguerra.github.io",
+  "version": "1.0.0",
+  "description": "My Website",
+  "main": "index.js",
+  "scripts": {
+    "dev": "npx tailwindcss-cli@latest build -i ./src/tailwind.css -o ./public/style.css",
+    "build": "cross-env NODE_ENV=production npx tailwindcss-cli@latest build -i ./src/tailwind.css -o ./public/style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RicoGuerra/RicoGuerra.github.io.git"
+  },
+  "author": "Enrico Guerra",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RicoGuerra/RicoGuerra.github.io/issues"
+  },
+  "homepage": "https://github.com/RicoGuerra/RicoGuerra.github.io#readme"
+}
