@@ -1,7 +1,13 @@
+:root {
+    --main-color: #0D1117;
+    --text-color: white;
+    --border-color: #333;
+}
+
 body {
-    background-color: #0D1117;
+    background-color: var(--main-color);
     font-family: 'Arial Nova', sans-serif;
-    color: white;
+    color: var(--text-color);
 }
 
 /* Add a black background color to the top navigation */
@@ -50,4 +56,29 @@ img {
 .dark-mode {
     background-color: white;
     color: #0D1117;
+}
+
+.accordion {
+    background-color: var(--main-color);
+    color: var(--text-color);
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: center;
+    outline: none;
+    font-size: 26px;
+    transition: 0.4s;
+}
+
+.accordion:hover {
+    background-color: var(--border-color);
+}
+
+.panel {
+    padding: 0 18px;
+    background-color: var(--main-color);
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
 }

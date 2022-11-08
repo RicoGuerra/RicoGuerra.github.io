@@ -1,8 +1,26 @@
-function darkModeFunc() {
-    var element = document.body;
-    element.classList.toggle("/public/style.css/dark-mode");
- }
+function accordion() {
+   var acc = document.getElementsByClassName("accordion");
+   var i;
 
- function show() {
-    alert("External JavaScript file.");
- }
+   for (i = 0; i < acc.length; i++) {
+      acc[i].addEventListener("click", function () {
+         this.classList.toggle("active");
+         var panel = this.nextElementSibling;
+         if (panel.style.maxHeight) {
+            panel.style.maxHeight = null;
+         } else {
+            panel.style.maxHeight = panel.scrollHeight + "px";
+         }
+      });
+   }
+}
+
+function acc2() {
+   this.classList.toggle("active");
+   var panel = this.nextElementSibling;
+   if (panel.style.maxHeight) {
+      panel.style.maxHeight = null;
+   } else {
+      panel.style.maxHeight = panel.scrollHeight + "px";
+   }
+}
