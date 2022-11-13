@@ -6,40 +6,59 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <script type="text/javascript" src="../src/js/script.js"></script>
     <title>Resume-CV</title>
 </head>
 
 <div class="topnav">
     <a href="../index.html">Home</a>
-    <a href="resume.html" class="active">Resume</a>
+    <a href="resume.html" class="active"><span id="cv">CV</span></a>
     <a href="contacts.html">Contact</a>
     <a href="publications.html">Publications</a>
 </div>
 
 <body>
-    <h1>This is Enrico Guerra's CV</h1>
+    <h1>This is Enrico Guerra's <span id="cv"></span></h1>
     <h2>!WIP!</h2>
     <br>
 
     <button class="accordion">Working Experience</button>
     <div class="panel">
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
-            dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
-            ea commodo consequat.</p>
+        <p>
+        <h3>Apr 2022 - Present</h3>
+        </p>
+        <p id="working_exp_1">
+            <a href="https://www.fh-dortmund.de/hochschule/informatik/index.php" target="_blank"
+                class="workplace">Fachhochschule
+                Dortmund, Germany, Faculty of Computer Science</a>
+            <br>
+            <span class="position">Graduate Assistant</span>
+            <br>
+            As part of this employment, the following responsibilities have been taken on as part of
+            the bachelor’s courses Software Engineering and Development of Distributed Applications:
+        <ul>
+            <li>Supervision and assessment of students’ semester projects dealing with the analysis,
+                design, and development of domain-specific software.
+            </li>
+            <li>
+                Restructuring and improving course content and materials.
+            </li>
+        </ul>
+        </p>
     </div>
 
     <button class="accordion">Education</button>
     <div class="panel">
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
-            dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
-            ea commodo consequat.</p>
+        <p id="education_listing">
+
+        </p>
     </div>
 
     <button class="accordion">Knowledge and Skills</button>
     <div class="panel">
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
-            dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
+            et
+            dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+            aliquip ex
             ea commodo consequat.</p>
     </div>
 </body>
@@ -59,5 +78,8 @@
         });
     }
 </script>
+
+<script type="text/javascript" src="../src/js/internationalization.js"></script>
+<script type="text/javascript" src="../src/js/script.js"></script>
 
 </html>

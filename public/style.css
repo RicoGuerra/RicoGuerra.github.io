@@ -66,6 +66,7 @@ img {
     width: 100%;
     border: none;
     text-align: center;
+    font-weight: bold;
     outline: none;
     font-size: 26px;
     transition: 0.4s;
@@ -81,4 +82,26 @@ img {
     max-height: 0;
     overflow: hidden;
     transition: max-height 0.2s ease-out;
+}
+
+.workspace {
+    font-weight: bold;
+}
+
+.position {
+    font-style: italic;
+}
+
+a:link,
+a:visited,
+a:active {
+    font-weight: bold;
+    color: var(--text-color);
+    text-decoration: none;
+}
+
+a:hover {
+    font-weight: bold;
+    color: var(--text-color);
+    text-decoration: underline;
 }
