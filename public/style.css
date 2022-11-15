@@ -8,6 +8,7 @@ body {
     background-color: var(--main-color);
     font-family: 'Arial Nova', sans-serif;
     color: var(--text-color);
+    font-size: large;
 }
 
 /* Add a black background color to the top navigation */
