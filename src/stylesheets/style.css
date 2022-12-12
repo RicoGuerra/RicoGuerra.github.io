@@ -1,0 +1,218 @@
+:root {
+    --main-color: #0D1117;
+    --text-color: white;
+    --border-color: #333;
+}
+
+body {
+    background-color: var(--main-color);
+    font-family: 'Arial Nova', sans-serif;
+    color: var(--text-color);
+    font-size: large;
+}
+
+/* Add a black background color to the top navigation */
+.topnav {
+    background-color: #333;
+    overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav .top {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    border-bottom: 3px solid transparent;
+}
+
+.topnav .top:hover {
+    border-bottom: 3px solid wheat;
+}
+
+h1 {
+    font-family: 'Arial Nova', sans-serif;
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+    font-style: italic;
+}
+
+img {
+    width: 25%;
+    height: auto;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.dark-mode {
+    background-color: white;
+    color: #0D1117;
+}
+
+.accordion {
+    background-color: var(--main-color);
+    color: var(--text-color);
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: center;
+    font-weight: bold;
+    outline: none;
+    font-size: 26px;
+    transition: 0.4s;
+}
+
+.accordion:hover {
+    background-color: var(--border-color);
+}
+
+.panel {
+    padding: 0 18px;
+    background-color: var(--main-color);
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+}
+
+.workspace,
+.skills {
+    font-weight: bold;
+}
+
+.position,
+.disclaimer {
+    font-style: italic;
+}
+
+a:link,
+a:visited,
+a:active {
+    font-weight: bold;
+    color: var(--text-color);
+    text-decoration: none;
+}
+
+a:hover {
+    font-weight: bold;
+    color: var(--text-color);
+    text-decoration: underline;
+}
+
+* {
+    box-sizing: border-box
+}
+
+.skill-container {
+    width: 100%;
+}
+
+.skill-container div {
+    font-weight: bold;
+    text-align: right;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+}
+
+.skills {
+    text-align: right;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+}
+
+.skills-html {
+    width: 50%;
+    background-color: rgb(158, 117, 33);
+}
+
+.skills-css {
+    width: 50%;
+    background-color: rgb(158, 117, 33);
+}
+
+.skills-js {
+    width: 50%;
+    background-color: rgb(158, 117, 33);
+}
+
+.skills-cpp {
+    width: 70%;
+    background-color: #036944;
+}
+
+.skills-java {
+    width: 70%;
+    background-color: #036944;
+}
+
+.skills-cs {
+    width: 60%;
+    background-color: #036944;
+}
+
+.skills-py {
+    width: 50%;
+    background-color: rgb(158, 117, 33);
+}
+
+.skills-scheme {
+    width: 40%;
+    background-color: rgb(36, 17, 84);
+}
+
+.skills-ue {
+    width: 80%;
+    background-color: #036944;
+}
+
+.skills-unity {
+    width: 73%;
+    background-color: #036944;
+}
+
+.skills-mono {
+    width: 50%;
+    background-color: rgb(158, 117, 33);
+}
+
+.skills-o3de {
+    width: 40%;
+    background-color: rgb(36, 17, 84);
+}
+
+.skills-xr {
+    width: 90%;
+    background-color: #036944;
+}
+
+.skills-uml {
+    width: 80%;
+    background-color: #036944;
+}
+
+.skills-unix {
+    width: 70%;
+    background-color: #036944;
+}
+
+.skills-rob {
+    width: 60%;
+    background-color: #036944;
+}
+
+.skills-ros {
+    width: 60%;
+    background-color: #036944;
+}
