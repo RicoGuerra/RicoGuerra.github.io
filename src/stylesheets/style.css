@@ -133,16 +133,86 @@ a:hover {
 }
 
 .skills-html {
-    width: 90%;
-    background-color: #04AA6D;
+    width: 50%;
+    background-color: rgb(158, 117, 33);
 }
 
 .skills-css {
-    width: 80%;
-    background-color: #2196F3;
+    width: 50%;
+    background-color: rgb(158, 117, 33);
 }
 
 .skills-js {
+    width: 50%;
+    background-color: rgb(158, 117, 33);
+}
+
+.skills-cpp {
+    width: 70%;
+    background-color: #036944;
+}
+
+.skills-java {
+    width: 70%;
+    background-color: #036944;
+}
+
+.skills-cs {
     width: 60%;
-    background-color: #f44336;
+    background-color: #036944;
+}
+
+.skills-py {
+    width: 50%;
+    background-color: rgb(158, 117, 33);
+}
+
+.skills-scheme {
+    width: 40%;
+    background-color: rgb(36, 17, 84);
+}
+
+.skills-ue {
+    width: 80%;
+    background-color: #036944;
+}
+
+.skills-unity {
+    width: 73%;
+    background-color: #036944;
+}
+
+.skills-mono {
+    width: 50%;
+    background-color: rgb(158, 117, 33);
+}
+
+.skills-o3de {
+    width: 40%;
+    background-color: rgb(36, 17, 84);
+}
+
+.skills-xr {
+    width: 90%;
+    background-color: #036944;
+}
+
+.skills-uml {
+    width: 80%;
+    background-color: #036944;
+}
+
+.skills-unix {
+    width: 70%;
+    background-color: #036944;
+}
+
+.skills-rob {
+    width: 60%;
+    background-color: #036944;
+}
+
+.skills-ros {
+    width: 60%;
+    background-color: #036944;
 }
