@@ -17,7 +17,37 @@ body {
     overflow: hidden;
 }
 
-/* Style the links inside the navigation bar */
+.alternate-nav .top {
+    display: none;
+}
+
+@media only screen and (max-width: 400px) {
+    .topnav {
+        display: none;
+    }
+
+    .alternate-nav {
+        background-color: #333;
+        overflow: hidden;
+    }
+
+    .alternate-nav .top {
+        display: block;
+        color: #f2f2f2;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+        border-bottom: 3px solid transparent;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .alternate-nav .top:hover {
+        border-bottom: 3px solid wheat;
+    }
+}
+
 .topnav .top {
     float: left;
     display: block;
@@ -67,6 +97,7 @@ img {
     width: 100%;
     border: none;
     text-align: center;
+    text-decoration: underline;
     font-weight: bold;
     outline: none;
     font-size: 26px;
