@@ -241,12 +241,14 @@ img {
 }
 
 .workspace,
-.skills {
+.skills,
+.pub {
     font-weight: bold;
 }
 
 .position,
-.disclaimer {
+.disclaimer,
+.conference {
     font-style: italic;
 }
 
@@ -258,7 +260,7 @@ a:active {
     text-decoration: none;
 }
 
- li a:hover {
+li a:hover {
     text-decoration: none;
 }
 
