@@ -208,6 +208,10 @@ img {
     margin-right: auto;
 }
 
+.center-pic {
+    display: inline-block;
+}
+
 .dark-mode {
     background-color: white;
     color: #0D1117;
