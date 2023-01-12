@@ -27,22 +27,28 @@ description: >- # this means to ignore newlines until "baseurl:"
 baseurl: "/" # the subpath of your site, e.g. /blog
 url: "https://ricoguerra.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 # twitter_username: jekyllrb
-github_username:  RicoGuerra
+github_username: RicoGuerra
 
 # Build settings
 theme: minima
-minima: 
+minima:
   skin: dark
   social_links:
-  #   - { platform: devto,          user_url: "https://dev.to/jekyll" }
-  #   - { platform: dribbble,       user_url: "https://dribbble.com/jekyll" }
-  #   - { platform: facebook,       user_url: "https://www.facebook.com/jekyll" }
-  #   - { platform: flickr,         user_url: "https://www.flickr.com/photos/jekyll" }
-     - { platform: github,         user_url: "https://github.com/RicoGuerra" }
-     - { platform: google_scholar, user_url: "https://scholar.google.com/citations?user=aRkJJVgAAAAJ&hl=de" }
-     - { platform: instagram,      user_url: "https://www.instagram.com/ricoguerra/" }
-  #   - { platform: keybase,        user_url: "https://keybase.io/jekyll" }
-     - { platform: linkedin,       user_url: "https://www.linkedin.com/in/-enrico-guerra/" }
+    #   - { platform: devto,          user_url: "https://dev.to/jekyll" }
+    #   - { platform: dribbble,       user_url: "https://dribbble.com/jekyll" }
+    #   - { platform: facebook,       user_url: "https://www.facebook.com/jekyll" }
+    #   - { platform: flickr,         user_url: "https://www.flickr.com/photos/jekyll" }
+    - { platform: github, user_url: "https://github.com/RicoGuerra" }
+    - {
+        platform: google_scholar,
+        user_url: "https://scholar.google.com/citations?user=aRkJJVgAAAAJ&hl=de",
+      }
+    - { platform: instagram, user_url: "https://www.instagram.com/ricoguerra/" }
+    #   - { platform: keybase,        user_url: "https://keybase.io/jekyll" }
+    - {
+        platform: linkedin,
+        user_url: "https://www.linkedin.com/in/-enrico-guerra/",
+      }
   #   - { platform: microdotblog,   user_url: "https://micro.blog/jekyll" }
   #   - { platform: pinterest,      user_url: "https://www.pinterest.com/jekyll" }
   #   - { platform: stackoverflow,  user_url: "https://stackoverflow.com/users/1234567/jekyll" }
@@ -52,6 +58,11 @@ minima:
 plugins:
   - jekyll-feed
 
+header_pages:
+  - about.md
+  - publications.md
+  - cv.md
+  - blog.md
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to
