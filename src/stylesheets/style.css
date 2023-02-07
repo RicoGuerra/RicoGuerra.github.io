@@ -381,3 +381,7 @@ a:hover {
     width: 60%;
     background-color: #036944;
 }
+
+.blog-entry {
+    text-align: center;
+}
